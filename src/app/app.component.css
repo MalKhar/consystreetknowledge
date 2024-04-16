@@ -1,0 +1,27 @@
+.title{
+    margin-top: 2rem;
+    color: #ddd;
+    text-align: center;
+}
+
+.title h1{
+    font-size: 4rem;
+}
+
+.input{
+    margin-top: 20px;
+    text-align: center;
+}
+
+input {
+    width: 40%;
+}
+
+.searchResult{
+    padding: 4rem 14rem;
+    display: flex;
+    justify-content: space-between;
+    width: fill;
+    flex-wrap: wrap;
+}
+
