@@ -9,8 +9,21 @@
 }
 
 .input{
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
+}
+.logo{
+    mix-blend-mode: screen;
+    max-width: 200px;
+    max-height: 100px;
+    margin-top: 20px;
+    filter: brightness(10);
+    filter:invert(1);
+}
+
+.input input{
+    border-radius: 2rem;
+    height: 40px;
 }
 
 input {
@@ -23,5 +36,9 @@ input {
     justify-content: space-between;
     width: fill;
     flex-wrap: wrap;
+    align-items: baseline;
 }
 
+.contentPreview{
+    margin-top: 2rem;
+}
