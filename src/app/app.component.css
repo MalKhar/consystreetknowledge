@@ -1,6 +1,6 @@
 .title{
     margin-top: 2rem;
-    color: #ddd;
+    color: #fff;
     text-align: center;
 }
 
@@ -11,14 +11,20 @@
 .input{
     margin-top: 10px;
     text-align: center;
+    border: none;
+}
+
+.input:selection{
+    border: none;
+
 }
 .logo{
+    filter: brightness(10);
+    filter:invert(1);
     mix-blend-mode: screen;
     max-width: 200px;
     max-height: 100px;
     margin-top: 20px;
-    filter: brightness(10);
-    filter:invert(1);
 }
 
 .input input{
@@ -30,15 +36,9 @@ input {
     width: 40%;
 }
 
-.searchResult{
-    padding: 4rem 14rem;
-    display: flex;
-    justify-content: space-between;
-    width: fill;
-    flex-wrap: wrap;
-    align-items: baseline;
-}
 
-.contentPreview{
-    margin-top: 2rem;
+.searchResult{
+    padding: 2rem 14rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }

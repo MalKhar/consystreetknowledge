@@ -1,23 +1,23 @@
 const posts = [
     {
-        "imgURL": "https://placehold.co/300x200",
+        "imgURL": "../assets/check.png",
         "title": "Att check SGF",
         "link": "https://www.youtube.com/watch?v=q652jp6YVqk",
-        "description": "Como atualizar o Check ou SGF. Necessário acesso ao FTP.",
+        "description": "Como atualizar o Check ou SGF. </br> Já aproveita e aprende a entrar no FTP.",
         "tags": ["check", "sgf"],
     },
     {
         "imgURL": "https://placehold.co/300x200",
-        "title": "Check não abre",
+        "title": '"MEU ATALHO SUMIU!!"',
         "link": "https://www.youtube.com/watch?v=q652jp6YVqk",
-        "description": "Teste teste",
+        "description": 'Vem cá que eu vou te ajudar, pode ser um bocado de coisa, mas geralmente é fácil.',
         "tags": ["check"],
   },
     {
-        "imgURL": "https://placehold.co/300x200",
-        "title": "Certificado SEFAZ",
-        "link": "https://www.youtube.com/watch?v=q652jp6YVqk",
-        "description": "A chess bot",
+        "imgURL": "../assets/thumbBckp.jpg",
+        "title": "Backup no geral",
+        "link": "https://youtu.be/1PV4NznTVT4",
+        "description": "O cliente viu tanto o aviso do SGF que a consciência pesou, e a merda do backup caiu justamente pra você? Relaxa irmão, vem com o seu pai.",
         "tags": ["check", "sgf", "NFe", "SEFAZ"],
   },
     {

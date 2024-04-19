@@ -24,7 +24,6 @@ function init(){
 const searchResult = document.getElementById("searchResult");
 
 var submitInput = (<GlobalEventHandlers>document.getElementById("input"));
-submitInput.onkeydown = filter;
 submitInput.onkeyup = filter;
 
 function constructor(){
@@ -50,6 +49,7 @@ function constructor(){
     linkImg?.appendChild(img);
     
     const title = document.createElement('h2');
+    title.classList.add('postTitle')
     title?.appendChild(link)
 
     const description = document.createElement('p');
@@ -65,6 +65,7 @@ function constructor(){
   });  
 }
 constructor();
+
 function clean(){
   while(searchResult?.firstChild){
     searchResult?.removeChild(searchResult.firstChild)
