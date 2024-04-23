@@ -28,6 +28,13 @@ body{
     /* background-repeat: no-repeat; */
     /* background-size: cover; */
     opacity: 1;
+
+}
+
+.unable{
+    filter: blur(1rem);
+    pointer-events: none;
+    opacity: 0.4;
 }
 
 .headerBG{

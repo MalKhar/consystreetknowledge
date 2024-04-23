@@ -4,6 +4,7 @@ import { Ng2SearchPipe } from 'ng2-search-filter';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { generate } from 'rxjs';
 import posts from './postsExport';
+import login from './login'
 
 @Component({
   selector: 'app-root',
@@ -20,6 +21,9 @@ export class AppComponent {
 //espera DOM
 window.onload = init;
 function init(){
+  login();
+
+alert("")
 
 const searchResult = document.getElementById("searchResult");
 
