@@ -21,11 +21,11 @@ const posts = [
         "tags": ["check", "sgf", "NFe", "SEFAZ"],
   },
     {
-        "imgURL": "https://placehold.co/300x200",
-        "title": "Teste",
-        "link": "https://www.youtube.com/watch?v=q652jp6YVqk",
-        "description": "A company",
-        "tags": ["teste"],
+        "imgURL": "../assets/thumbABCFarma.jpg",
+        "title": "Atualização ABCFarma",
+        "link": "https://youtu.be/b74STL_RKG0",
+        "description": "Esse aqui é suave e aparece muito, quanto mais rápido você aprender, mais rápido conquista tua autonomia.",
+        "tags": ["ABCFarma", "abcfarma", "Atualização", "Preço"],
   },
     {
         "imgURL": "https://placehold.co/300x200",
