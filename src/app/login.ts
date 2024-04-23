@@ -2,10 +2,15 @@ const login = function login() {
     const bodyUnable = document.getElementById('body');
     let text;
     let password = prompt("Qual a senha?", "");
-    if (password == "7162priv"){
-        bodyUnable.classList.remove("unable");
+    if (password !== "7162priv"){
+        bodyUnable.removeChild(bodyUnable.firstChild);
+        bodyUnable.removeChild(bodyUnable.firstChild);
+        bodyUnable.removeChild(bodyUnable.firstChild);
+        bodyUnable.removeChild(bodyUnable.firstChild);
+        bodyUnable.removeChild(bodyUnable.firstChild);
+        alert("vaza");
     } else {
-        alert("Errou amigo, mete o pé.")
+        bodyUnable.classList.remove("unable");
     }
 
 }
