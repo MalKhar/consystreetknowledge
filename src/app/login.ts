@@ -8,6 +8,7 @@ const login = function login() {
         bodyUnable.removeChild(bodyUnable.firstChild);
         bodyUnable.removeChild(bodyUnable.firstChild);
         bodyUnable.removeChild(bodyUnable.firstChild);
+        bodyUnable.style.backgroundColor = "#000";
         alert("vaza");
     } else {
         bodyUnable.classList.remove("unable");
